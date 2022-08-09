@@ -1,0 +1,96 @@
+/* Basics */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(18, 218, 218);
+}
+/* ---------------------------------------------------------------- */
+/* Main containers */
+
+.container h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: rgb(248, 248, 248);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------------- */
+/* left box */
+.form {
+  display: inline-block;
+  width: 40%;
+}
+.form form input {
+  margin-top: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: 150px;
+}
+.small-box input {
+  box-sizing: border-box;
+  width: 30% !important;
+}
+.small-box input:first-child {
+  float: left;
+}
+.small-box input:last-child {
+  float: right;
+}
+.form form textarea {
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  border: solid 1px white;
+  border-radius: 6px;
+  width: 80%;
+  margin-left: 150px;
+}
+.btn input {
+  float: right;
+  width: 40% !important;
+  background-color: yellow;
+  cursor: pointer;
+}
+/* ---------------------------------------------------------------- */
+/* right box */
+.right-box {
+  float: right;
+  margin-top: 100px;
+  margin-right: 25%;
+  text-transform: uppercase;
+  color: white;
+}
+.right-box h2 {
+  word-spacing: 5px;
+  font-size: 30px;
+  font-weight: light;
+}
+.right-box p {
+  width: 80%;
+  margin-top: 10px;
+}
+.right-box p span {
+  color: yellow;
+}
+.right-box ul {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.right-box ul li {
+  padding-left: 17px;
+  padding-top: 7px;
+  font-size: 18px;
+}
+.right-box a {
+  text-decoration: none;
+  color: white;
+}
